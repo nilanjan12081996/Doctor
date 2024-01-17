@@ -1,0 +1,17 @@
+.upper{
+    margin-top: 10px;
+    height: 300px;
+    background-image: url('https://www.ache.org/-/media/ache/blog/blog_header_tim_c_nurses_week.png');
+    background-size: 100% 100%;
+    position: relative;
+}
+.upper::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #223a66; /* Overlay color */
+    opacity: 0.5;
+}
